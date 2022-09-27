@@ -1,0 +1,124 @@
+
+*{
+/* buena paractica de inicio css */
+    padding: 0;
+    margin: 0;
+
+}
+.contenedor2{
+
+    color: blue;
+    border: solid red;
+    margin-top: 0%;
+/*pruebaq*/
+
+}
+
+/* .icono img{
+background: white;
+background-image: white;
+background-color: white;
+} */
+
+.barra{
+    color: white;
+background-color: blue;
+text-align: center;
+padding-bottom: 10px;
+margin-bottom: 0%;
+
+}
+.iconos{
+
+    padding-left: 75%;
+    border: solid  rgb(201, 22, 192);
+    
+}
+
+.seguridad{
+    background: white;
+    width: 20%;
+    text-align: center;
+    border: solid gold;
+
+}
+
+
+
+.seguridad h4{
+
+    color: rgb(65, 100, 121);
+
+}
+
+.IngReg {
+
+    border: solid coral;
+
+}
+
+.Ingresar{
+
+border: solid yellowgreen;
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 5%;
+/* margin-left: 25%;
+margin-right: 25%; */
+
+
+}
+
+.contenedorIngReg{
+
+    width: 70%;
+    border: solid black;
+    text-align: center;
+    display: flex;
+    padding-left: 30%;
+  
+
+}
+
+
+.contenedorIngReg {
+    
+    
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    
+}
+
+.tituloReg{
+
+    color: blue;
+}
+
+ .contenedorRegistrar{
+  border: solid yellow;    
+  padding-bottom: 20px;
+  color: rgba(77, 70, 70, 0.993);
+  background-color: rgb(237, 237, 243);
+  /* padding-left: 10%;
+  padding-right: 10%; */
+
+} 
+
+.btnRgs{
+
+    background-color: rgb(202, 23, 23);
+    color: white;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+
+    margin-bottom: 100px;
+}
+
