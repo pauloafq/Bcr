@@ -1,0 +1,60 @@
+
+.contenedor {
+/* esto es el titulo de la pagina */
+    background-color: rgb(154, 167, 167);
+    color: rgb(216, 230, 97);
+    padding-left: 35%;
+    /* border: solid  black; */
+
+
+}
+
+.contenedor img{
+
+    height: 50%;
+    width: 50%;
+    padding-left: 0%;
+}
+
+.contenedor-imgs{
+
+    background-color: 167, 154, 154;
+}
+
+.parrafo{
+
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.body{
+
+    background-color: rgba(192, 189, 189, 0.329);
+
+    ;
+
+}
+
+.formulario{
+
+    border: solid rgb(216, 230, 97);
+    border-radius: 20px;
+    background-color: rgb(154, 167, 167);
+    /* padding-right: 50%; */
+    margin-left: 75%;
+    margin-right: 20px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+
+}
+
+.boton-buscar{
+    
+    background-color: rgb(216, 230, 97);
+    border-radius: 10px;
+    height: 35px;
+    
+    margin-left: 35%;
+    margin-bottom: 3px;
+}
