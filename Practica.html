@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="EstilosBcr.css">
-    <title>Bcr</title>
+    <title>Banco de Costa Rica-Oficina Virtual</title>
 </head>
-<body>
+<body class="body">
 <header>
-
-
-    <div>
-        <img src="imagenes\logo bcr.png" alt="logo bcr">
-    </div>
 
     <div class="contenedor">
 
-        <img class="icono" src="C:\Users\LENOVO\Documents\HTML, CSS\Practica\imagenes\icono info.png" alt="">
-        
+        <div>
+            <img src="imagenes\logo bcr.png" alt="logo bcr">
+        </div>
+
         <div class="iconos">
-            <h3>certificados</h3>
-            <h3> icono contactenos  </h3>
+            
+            <div class="certificados">
+                <img class="iconocer" src="C:\Users\LENOVO\Documents\HTML, CSS\Practica\Bcr\certificaciones.png" alt="">
+                <h3>certificados </h3>
+    
+            </div>
+            
+            <div class="contactenos">
+                
+                <img class="iconoCon" src="C:\Users\LENOVO\Documents\HTML, CSS\Practica\Bcr\i.png" alt="">
+                <h3>contactenos </h3>
+            </div>
+            
         </div>
         
-        
-
     </div>
 
 </header>
@@ -39,46 +45,96 @@
 
         <section class="seguridad">
 
-            <h2>seguridad </h2>
-            <h4>Consideraciones</h4>
-            <h4>Reglamentos</h4>
+            <h2 >Seguridad </h2>
+        
+            <div class="contenedor">
+
+                <h4>Consideraciones</h4>
+                <h4>Reglamentos</h4>
+            
+            </div>
+            
 
         </section>
 
         <section class="IngReg">
-            <div class="contenedorIngReg">
+            
+            <div class="contenedorIngReg" >
                 
+                <!-- <img src="C:\Users\LENOVO\Documents\HTML, CSS\Practica\imagenes\background.png" alt=""> -->
 
             <section class="Ingresar">
-                <h2>Ingresar</h2>
-                <input type="text" placeholder="Usuario">
+                <div class="contenedorIngresar">
+                <h2 class="tituloIng">Ingresar</h2>
+                <br>
+                <br>
+                <input class="textUsuario" type="text" placeholder="Usuario">
                 <input type="text" placeholder="Contraseña">
+                <br>
+                <label for=""> <input type="checkbox" placeholder= "cerificadoDigital"> 
+                    Cetificado Digital
+                </label>
+               
+                </div>
+                
 
             </section>
 
             <section class="Registrar">
                     <div class="contenedorRegistrar">
                         <h2 class="tituloReg">Registrarse</h2>
-
                         <p> Registrese aqui si desea utilizar los servicios de banca digital</p>
                         <p> Para registrarse requiere ser cliente y tener al menos un producto activo</p>
-
                         <a class="btnRgs" href="#">Continuar</a>
-
                     </div>
 
             </section>
 
+
+            
             </div>
         </section>
 
     </div>
 
-    <footer>
+    <footer class="footer">
 
+        <div>
+            <p> BCR Derechos Reservados 2022.  Contactenos: cibercr@outlook.com  </p>
+        </div>
 
     </footer>
-    
+
+
+<!-- <div class="cont-cont">
+
+    <div class="flex1">
+        <div class="c1">
+            <h1>flex 1 </h1>
+        </div>
+        <div class="c2">
+
+        </div>
+        <div class="c3">
+
+        </div>
+
+    </div>
+
+    <div class="flex2">
+        <div class="c1">
+            <h1>flex 2 </h1>
+        </div>
+        <div class="c2">
+
+        </div>
+        <div class="c3">
+
+        </div>
+
+    </div>
+
+</div> -->
     
 </body>
 </html>
