@@ -1,0 +1,1 @@
+let nombre = prompt("digite el nombre del fallecido");
